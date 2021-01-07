@@ -1,0 +1,12 @@
+{
+  "name": "Formulario",
+  "displayName": "Formulario",
+  "expo": {
+    "name": "Formulario",
+    "slug": "Formulario",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
