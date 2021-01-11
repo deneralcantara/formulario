@@ -7,6 +7,13 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.deneralc98.Formulario"
+    },
+    "ios": {
+      "bundleIdentifier": "com.deneralc98.Formulario"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }

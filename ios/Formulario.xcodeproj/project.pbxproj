@@ -310,11 +310,12 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.Formulario;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneralc98.Formulario";
 				PRODUCT_NAME = Formulario;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+				CODE_SIGN_ENTITLEMENTS = Formulario/Formulario.entitlements;
 			};
 			name = Debug;
 		};
@@ -334,10 +335,11 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.Formulario;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneralc98.Formulario";
 				PRODUCT_NAME = Formulario;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+				CODE_SIGN_ENTITLEMENTS = Formulario/Formulario.entitlements;
 			};
 			name = Release;
 		};
@@ -398,6 +400,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				CODE_SIGN_ENTITLEMENTS = Formulario/Formulario.entitlements;
 			};
 			name = Debug;
 		};
@@ -451,6 +454,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				CODE_SIGN_ENTITLEMENTS = Formulario/Formulario.entitlements;
 			};
 			name = Release;
 		};
