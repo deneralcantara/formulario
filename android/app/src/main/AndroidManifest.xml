@@ -31,7 +31,7 @@
   >
     <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="https://exp.host/@deneralc98/Formulario" />
     <meta-data android:name="expo.modules.updates.EXPO_SDK_VERSION" android:value="40.0.0" />
-    <meta-data android:name="expo.modules.updates.EXPO_RELEASE_CHANNEL" android:value="default" />
+    <meta-data android:name="expo.modules.updates.EXPO_RELEASE_CHANNEL" android:value="expo" />
 
   <activity
     android:name=".MainActivity"
