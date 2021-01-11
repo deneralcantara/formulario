@@ -3,10 +3,11 @@
   "displayName": "Formulario",
   "expo": {
     "name": "Formulario",
-    "slug": "Formulario",
+    "slug": "formulario",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": "Formulário"
   }
 }
