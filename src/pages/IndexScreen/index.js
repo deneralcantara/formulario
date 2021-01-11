@@ -64,7 +64,8 @@ export default function IndexScreen({navigation}) {
                 </TouchableOpacity>
               </View>
           )}
-            keyExtractor={(item) => item.id}
+            keyExtractor={(item) => item.id.toString()}
+
           />
       </View>
     );

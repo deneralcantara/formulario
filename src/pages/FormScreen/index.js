@@ -179,6 +179,8 @@ async function registerForPushNotificationsAsync() {
         alert("Usuário adicionado com sucesso!");
        
         await sendPushNotification(expoPushToken, name, message).then(user => {
+
+          console.log(user);
           onChangeName(null);
           onChangeEmail(null);
           onChangeTelephone(null);
